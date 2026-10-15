@@ -1,4 +1,5 @@
 %sinr of bob in simulation 
+
 function sim_sinr_bob = SINR_bob_sim ( H , X , S, k )
      Y = H*X ; 
      y_k = Y(k,:);
